@@ -1,0 +1,2 @@
+interface GigabitEthernet6/16
+end
