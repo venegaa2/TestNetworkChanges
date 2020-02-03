@@ -1,5 +1,6 @@
 interface GigabitEthernet6/16
-switchport access vlan 11
-switchport mode access
-spanning-tree portfast
+description Etherchannel Member
+switchport mode trunk
+channel-group 1 mode active
+switchport trunk native vlan 747
 end
